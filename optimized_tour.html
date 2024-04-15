@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_58466f1fa3b85b53e56df1d6042dfa83 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_58466f1fa3b85b53e56df1d6042dfa83" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_58466f1fa3b85b53e56df1d6042dfa83 = L.map(
+                "map_58466f1fa3b85b53e56df1d6042dfa83",
+                {
+                    center: [41.52708516764705, -72.82677768529413],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c618a0b63a3ea0228ae76797be115e71 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c618a0b63a3ea0228ae76797be115e71.addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var marker_b25f9af923a95756cf3fe983ad9078d0 = L.marker(
+                [41.3163244, -72.9223431],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_f61f942876cc258ccc87c8a4a7516c58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b25f9af923a95756cf3fe983ad9078d0.setIcon(icon_f61f942876cc258ccc87c8a4a7516c58);
+        
+    
+        var popup_527e175626176b8571c5010d200fb331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73ce851dbbd394df4341dd9e47d1784b = $(`<div id="html_73ce851dbbd394df4341dd9e47d1784b" style="width: 100.0%; height: 100.0%;">Yale University</div>`)[0];
+                popup_527e175626176b8571c5010d200fb331.setContent(html_73ce851dbbd394df4341dd9e47d1784b);
+            
+        
+
+        marker_b25f9af923a95756cf3fe983ad9078d0.bindPopup(popup_527e175626176b8571c5010d200fb331)
+        ;
+
+        
+    
+    
+            var marker_7aeaa322c7856011d429aa8891fdf3b0 = L.marker(
+                [41.4250948, -72.8376389],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_c0af47774c9c5fcde7a25f53515c14a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7aeaa322c7856011d429aa8891fdf3b0.setIcon(icon_c0af47774c9c5fcde7a25f53515c14a6);
+        
+    
+        var popup_62eb36a62a520741fab9a8feb70325a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b95a4e17e1e0cf8a3fac8c7d5650dac = $(`<div id="html_2b95a4e17e1e0cf8a3fac8c7d5650dac" style="width: 100.0%; height: 100.0%;">Wharton Brook State Park</div>`)[0];
+                popup_62eb36a62a520741fab9a8feb70325a3.setContent(html_2b95a4e17e1e0cf8a3fac8c7d5650dac);
+            
+        
+
+        marker_7aeaa322c7856011d429aa8891fdf3b0.bindPopup(popup_62eb36a62a520741fab9a8feb70325a3)
+        ;
+
+        
+    
+    
+            var marker_dd718533e5e5832f746140feab630a21 = L.marker(
+                [41.5482476, -72.8361313],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_615231fdac7fc7950e9601df2dfd977a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd718533e5e5832f746140feab630a21.setIcon(icon_615231fdac7fc7950e9601df2dfd977a);
+        
+    
+        var popup_7d7115c74127392adcbf524d3c798e13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62358c8c8177d697ae322c35d5b822f7 = $(`<div id="html_62358c8c8177d697ae322c35d5b822f7" style="width: 100.0%; height: 100.0%;">Hubbard Park</div>`)[0];
+                popup_7d7115c74127392adcbf524d3c798e13.setContent(html_62358c8c8177d697ae322c35d5b822f7);
+            
+        
+
+        marker_dd718533e5e5832f746140feab630a21.bindPopup(popup_7d7115c74127392adcbf524d3c798e13)
+        ;
+
+        
+    
+    
+            var marker_747b9ffb7297434471c1af51fb4b2521 = L.marker(
+                [41.5369083, -72.6860404],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_d91b6e1a12e00a864ce25763efd7df05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_747b9ffb7297434471c1af51fb4b2521.setIcon(icon_d91b6e1a12e00a864ce25763efd7df05);
+        
+    
+        var popup_9209b9045e14af03e6ba3054098759a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_407f70eb37528f0b3ce0131cbcf5ecab = $(`<div id="html_407f70eb37528f0b3ce0131cbcf5ecab" style="width: 100.0%; height: 100.0%;">Wadsworth Falls State Park</div>`)[0];
+                popup_9209b9045e14af03e6ba3054098759a9.setContent(html_407f70eb37528f0b3ce0131cbcf5ecab);
+            
+        
+
+        marker_747b9ffb7297434471c1af51fb4b2521.bindPopup(popup_9209b9045e14af03e6ba3054098759a9)
+        ;
+
+        
+    
+    
+            var marker_caf15b03517510a6e3c012f86693e87f = L.marker(
+                [41.759965, -72.6185678],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_ba76a8fd7bd31743c63a3a512728d8e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_caf15b03517510a6e3c012f86693e87f.setIcon(icon_ba76a8fd7bd31743c63a3a512728d8e3);
+        
+    
+        var popup_ddcf701e8524ad53cc3148374883cc53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bccc235f8a116e3257d5651df739a08e = $(`<div id="html_bccc235f8a116e3257d5651df739a08e" style="width: 100.0%; height: 100.0%;">Pratt & Whitney Stadium at Rentschler Field</div>`)[0];
+                popup_ddcf701e8524ad53cc3148374883cc53.setContent(html_bccc235f8a116e3257d5651df739a08e);
+            
+        
+
+        marker_caf15b03517510a6e3c012f86693e87f.bindPopup(popup_ddcf701e8524ad53cc3148374883cc53)
+        ;
+
+        
+    
+    
+            var marker_e25bd4be2f8ed222e33ed36bf2619384 = L.marker(
+                [41.7672127, -72.3066124],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_0fddb7953fe86501ae183ed95814f2ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e25bd4be2f8ed222e33ed36bf2619384.setIcon(icon_0fddb7953fe86501ae183ed95814f2ee);
+        
+    
+        var popup_e578790579e88a6b9754d871bebf8ed1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bf4987cad57578c76d406960297e41b = $(`<div id="html_3bf4987cad57578c76d406960297e41b" style="width: 100.0%; height: 100.0%;">Patriots Park</div>`)[0];
+                popup_e578790579e88a6b9754d871bebf8ed1.setContent(html_3bf4987cad57578c76d406960297e41b);
+            
+        
+
+        marker_e25bd4be2f8ed222e33ed36bf2619384.bindPopup(popup_e578790579e88a6b9754d871bebf8ed1)
+        ;
+
+        
+    
+    
+            var marker_0ad1d57a6a2de1198b48cf9e079e61fd = L.marker(
+                [41.9169946, -71.9110492],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_c0335f1358254fe5942571e819e9b7bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ad1d57a6a2de1198b48cf9e079e61fd.setIcon(icon_c0335f1358254fe5942571e819e9b7bf);
+        
+    
+        var popup_57e9c4dce630ac7e2fd73b805d720cec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f88783c8655e8ed2a5911e66d790fb4 = $(`<div id="html_7f88783c8655e8ed2a5911e66d790fb4" style="width: 100.0%; height: 100.0%;">Rotary Park & Bandstand</div>`)[0];
+                popup_57e9c4dce630ac7e2fd73b805d720cec.setContent(html_7f88783c8655e8ed2a5911e66d790fb4);
+            
+        
+
+        marker_0ad1d57a6a2de1198b48cf9e079e61fd.bindPopup(popup_57e9c4dce630ac7e2fd73b805d720cec)
+        ;
+
+        
+    
+    
+            var marker_dd1b573fe92977aea6862752bea7291a = L.marker(
+                [41.916161, -71.908102],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_4675263aae1c1128cc33f88271c5643a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd1b573fe92977aea6862752bea7291a.setIcon(icon_4675263aae1c1128cc33f88271c5643a);
+        
+    
+        var popup_44b82ceb38bed0fe5bb6d6551c244598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a301ca1902910b73ef62cc8f9fd66263 = $(`<div id="html_a301ca1902910b73ef62cc8f9fd66263" style="width: 100.0%; height: 100.0%;">Cargill Chevrolet, 23 Livery St</div>`)[0];
+                popup_44b82ceb38bed0fe5bb6d6551c244598.setContent(html_a301ca1902910b73ef62cc8f9fd66263);
+            
+        
+
+        marker_dd1b573fe92977aea6862752bea7291a.bindPopup(popup_44b82ceb38bed0fe5bb6d6551c244598)
+        ;
+
+        
+    
+    
+            var marker_6206998177730066b2a5f91e5c5b06dd = L.marker(
+                [41.3443022, -72.0931336],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_d403a89008436ed5e180b7da3d7cc9de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6206998177730066b2a5f91e5c5b06dd.setIcon(icon_d403a89008436ed5e180b7da3d7cc9de);
+        
+    
+        var popup_8bdce9472326de2a8a17187097e3d0ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_847c9bcfeef8f7ffbdd9216d734c270a = $(`<div id="html_847c9bcfeef8f7ffbdd9216d734c270a" style="width: 100.0%; height: 100.0%;">Fort Trumbull State Park</div>`)[0];
+                popup_8bdce9472326de2a8a17187097e3d0ab.setContent(html_847c9bcfeef8f7ffbdd9216d734c270a);
+            
+        
+
+        marker_6206998177730066b2a5f91e5c5b06dd.bindPopup(popup_8bdce9472326de2a8a17187097e3d0ab)
+        ;
+
+        
+    
+    
+            var marker_78cadecc8e0fec1facf27ed12dea70d8 = L.marker(
+                [41.3612271, -71.963923],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_fee8264a5f31342130eddaea6d3a1a4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78cadecc8e0fec1facf27ed12dea70d8.setIcon(icon_fee8264a5f31342130eddaea6d3a1a4a);
+        
+    
+        var popup_e41206ee82a97c650fc4c2936e1b0925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb1bafb98abb47360d3ab6d35d74c9a1 = $(`<div id="html_eb1bafb98abb47360d3ab6d35d74c9a1" style="width: 100.0%; height: 100.0%;">Mystic Seaport Museum</div>`)[0];
+                popup_e41206ee82a97c650fc4c2936e1b0925.setContent(html_eb1bafb98abb47360d3ab6d35d74c9a1);
+            
+        
+
+        marker_78cadecc8e0fec1facf27ed12dea70d8.bindPopup(popup_e41206ee82a97c650fc4c2936e1b0925)
+        ;
+
+        
+    
+    
+            var marker_ee0e50827cb2e3b3c4d112c41ccb4481 = L.marker(
+                [41.5481266, -72.0676761],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_7ac03c9ceb5d868485eff5ff60a7a7b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee0e50827cb2e3b3c4d112c41ccb4481.setIcon(icon_7ac03c9ceb5d868485eff5ff60a7a7b1);
+        
+    
+        var popup_9f64aab71bda5c919bdde35876cd53d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7987cf84c2d67bdfdc67f173107927c = $(`<div id="html_d7987cf84c2d67bdfdc67f173107927c" style="width: 100.0%; height: 100.0%;">Mohegan Park</div>`)[0];
+                popup_9f64aab71bda5c919bdde35876cd53d0.setContent(html_d7987cf84c2d67bdfdc67f173107927c);
+            
+        
+
+        marker_ee0e50827cb2e3b3c4d112c41ccb4481.bindPopup(popup_9f64aab71bda5c919bdde35876cd53d0)
+        ;
+
+        
+    
+    
+            var marker_c54b95f2b2925d48ed7404231dee27d3 = L.marker(
+                [41.7109653, -72.2056691],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_a6a360867af2a4b5579e71c9a2ba40dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c54b95f2b2925d48ed7404231dee27d3.setIcon(icon_a6a360867af2a4b5579e71c9a2ba40dd);
+        
+    
+        var popup_8d895dbe978d25ab4272f3480fce0a14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c283cfb82f2949aa50ccd6a028f5db25 = $(`<div id="html_c283cfb82f2949aa50ccd6a028f5db25" style="width: 100.0%; height: 100.0%;">Windham Textile & History Museum</div>`)[0];
+                popup_8d895dbe978d25ab4272f3480fce0a14.setContent(html_c283cfb82f2949aa50ccd6a028f5db25);
+            
+        
+
+        marker_c54b95f2b2925d48ed7404231dee27d3.bindPopup(popup_8d895dbe978d25ab4272f3480fce0a14)
+        ;
+
+        
+    
+    
+            var marker_e1496ea378bd7c29dec4afd1b69e2263 = L.marker(
+                [41.8077414, -72.2539805],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_113cbc3426b8d84af7b00cab18230ba0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1496ea378bd7c29dec4afd1b69e2263.setIcon(icon_113cbc3426b8d84af7b00cab18230ba0);
+        
+    
+        var popup_3157745cdc3bea4cead7814adc7ddb2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0f323bdafa670cc268bd73e2357c545 = $(`<div id="html_f0f323bdafa670cc268bd73e2357c545" style="width: 100.0%; height: 100.0%;">University of Connecticut</div>`)[0];
+                popup_3157745cdc3bea4cead7814adc7ddb2d.setContent(html_f0f323bdafa670cc268bd73e2357c545);
+            
+        
+
+        marker_e1496ea378bd7c29dec4afd1b69e2263.bindPopup(popup_3157745cdc3bea4cead7814adc7ddb2d)
+        ;
+
+        
+    
+    
+            var marker_71f5a91831c22cd01f8e3b82b0c2c57c = L.marker(
+                [41.7642631, -72.6822803],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_559298f940d6a5219b98db5abbbdceb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71f5a91831c22cd01f8e3b82b0c2c57c.setIcon(icon_559298f940d6a5219b98db5abbbdceb8);
+        
+    
+        var popup_fe6268d4880d96f4e9029d0662d549b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab61f1c499955167a93b7c3a9e29801f = $(`<div id="html_ab61f1c499955167a93b7c3a9e29801f" style="width: 100.0%; height: 100.0%;">Connecticut State Capitol</div>`)[0];
+                popup_fe6268d4880d96f4e9029d0662d549b7.setContent(html_ab61f1c499955167a93b7c3a9e29801f);
+            
+        
+
+        marker_71f5a91831c22cd01f8e3b82b0c2c57c.bindPopup(popup_fe6268d4880d96f4e9029d0662d549b7)
+        ;
+
+        
+    
+    
+            var marker_d2316a3ff0aeb4db3b4624fbfdd97fb4 = L.marker(
+                [41.8355353, -72.79086],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_d584a0916074527d1371b613b0c702c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2316a3ff0aeb4db3b4624fbfdd97fb4.setIcon(icon_d584a0916074527d1371b613b0c702c8);
+        
+    
+        var popup_4de3ec0cb3770c8d9d61b6805536ccea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a549342bc7c0e79dfc353dc489afaea = $(`<div id="html_5a549342bc7c0e79dfc353dc489afaea" style="width: 100.0%; height: 100.0%;">Talcott Mountain State Park</div>`)[0];
+                popup_4de3ec0cb3770c8d9d61b6805536ccea.setContent(html_5a549342bc7c0e79dfc353dc489afaea);
+            
+        
+
+        marker_d2316a3ff0aeb4db3b4624fbfdd97fb4.bindPopup(popup_4de3ec0cb3770c8d9d61b6805536ccea)
+        ;
+
+        
+    
+    
+            var marker_709f5156df1d0d3675d2fbf9e54379be = L.marker(
+                [41.9267021, -72.5784289],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_fcb46f2463111a1a5e92e0877b524078 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_709f5156df1d0d3675d2fbf9e54379be.setIcon(icon_fcb46f2463111a1a5e92e0877b524078);
+        
+    
+        var popup_017eb91b644e3f6db403ff6e4b25dded = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c8d6826ff09202d6181fad50fa61841 = $(`<div id="html_9c8d6826ff09202d6181fad50fa61841" style="width: 100.0%; height: 100.0%;">Connecticut Trolley Museum</div>`)[0];
+                popup_017eb91b644e3f6db403ff6e4b25dded.setContent(html_9c8d6826ff09202d6181fad50fa61841);
+            
+        
+
+        marker_709f5156df1d0d3675d2fbf9e54379be.bindPopup(popup_017eb91b644e3f6db403ff6e4b25dded)
+        ;
+
+        
+    
+    
+            var marker_c1209e90c9cdab42f6baf42af585a339 = L.marker(
+                [41.9616279, -72.4082497],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_db0dcdcd735a79813d676ab22c8d7f16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1209e90c9cdab42f6baf42af585a339.setIcon(icon_db0dcdcd735a79813d676ab22c8d7f16);
+        
+    
+        var popup_b3be7ee08b6cfb35355a6bd2d805d957 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_767292808f536746b854e2811736693a = $(`<div id="html_767292808f536746b854e2811736693a" style="width: 100.0%; height: 100.0%;">Shenipsit State Forest</div>`)[0];
+                popup_b3be7ee08b6cfb35355a6bd2d805d957.setContent(html_767292808f536746b854e2811736693a);
+            
+        
+
+        marker_c1209e90c9cdab42f6baf42af585a339.bindPopup(popup_b3be7ee08b6cfb35355a6bd2d805d957)
+        ;
+
+        
+    
+    
+            var marker_71dfbddf7c201c3ed950c90751840cd5 = L.marker(
+                [41.9802238, -72.6524364],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_67d104e63ce403ee1976c8186c4f0df5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71dfbddf7c201c3ed950c90751840cd5.setIcon(icon_67d104e63ce403ee1976c8186c4f0df5);
+        
+    
+        var popup_9776e3a44b3f96904faeaa024cb70eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d66226163d19a54a1485900780e91612 = $(`<div id="html_d66226163d19a54a1485900780e91612" style="width: 100.0%; height: 100.0%;">Phelps-Hatheway House & Garden</div>`)[0];
+                popup_9776e3a44b3f96904faeaa024cb70eb1.setContent(html_d66226163d19a54a1485900780e91612);
+            
+        
+
+        marker_71dfbddf7c201c3ed950c90751840cd5.bindPopup(popup_9776e3a44b3f96904faeaa024cb70eb1)
+        ;
+
+        
+    
+    
+            var marker_1abaeca5b1e7c9495fa799562e6aa8a5 = L.marker(
+                [41.947718, -72.691551],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_9337d02e22cce278be92cdaeb95ca6b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1abaeca5b1e7c9495fa799562e6aa8a5.setIcon(icon_9337d02e22cce278be92cdaeb95ca6b2);
+        
+    
+        var popup_e99efaef5f7c6055f9a172015432448d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2222aed2b63b86e9d91ff01e2721bdfd = $(`<div id="html_2222aed2b63b86e9d91ff01e2721bdfd" style="width: 100.0%; height: 100.0%;">New England Air Museum</div>`)[0];
+                popup_e99efaef5f7c6055f9a172015432448d.setContent(html_2222aed2b63b86e9d91ff01e2721bdfd);
+            
+        
+
+        marker_1abaeca5b1e7c9495fa799562e6aa8a5.bindPopup(popup_e99efaef5f7c6055f9a172015432448d)
+        ;
+
+        
+    
+    
+            var marker_6ad6039e4d3371f63b0cad928e61b900 = L.marker(
+                [41.8705236, -73.0925345],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_b4b0d0ff5ede350a3dad1f052cdb5501 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6ad6039e4d3371f63b0cad928e61b900.setIcon(icon_b4b0d0ff5ede350a3dad1f052cdb5501);
+        
+    
+        var popup_1534f92ac261ed8e4910247b4f7ba43e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b15e83717fb2b9d685bc925e4181a7b = $(`<div id="html_1b15e83717fb2b9d685bc925e4181a7b" style="width: 100.0%; height: 100.0%;">Burr Pond State Park</div>`)[0];
+                popup_1534f92ac261ed8e4910247b4f7ba43e.setContent(html_1b15e83717fb2b9d685bc925e4181a7b);
+            
+        
+
+        marker_6ad6039e4d3371f63b0cad928e61b900.bindPopup(popup_1534f92ac261ed8e4910247b4f7ba43e)
+        ;
+
+        
+    
+    
+            var marker_0810f9b14a2d8eca87191d5e4345fb1d = L.marker(
+                [41.769417, -72.681825],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_919374ab41ffc6f61352468761f83c02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0810f9b14a2d8eca87191d5e4345fb1d.setIcon(icon_919374ab41ffc6f61352468761f83c02);
+        
+    
+        var popup_6468601d12123ba7f71ead7bae7ee6b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_362b08618f2ab683f328113e1b12e4ad = $(`<div id="html_362b08618f2ab683f328113e1b12e4ad" style="width: 100.0%; height: 100.0%;">Greater Hartford Transit District - Spruce Street Lot, 1 Union Pl</div>`)[0];
+                popup_6468601d12123ba7f71ead7bae7ee6b5.setContent(html_362b08618f2ab683f328113e1b12e4ad);
+            
+        
+
+        marker_0810f9b14a2d8eca87191d5e4345fb1d.bindPopup(popup_6468601d12123ba7f71ead7bae7ee6b5)
+        ;
+
+        
+    
+    
+            var marker_bc90fe1f4ba3a63de7fd7510f6d0f71c = L.marker(
+                [41.7220476, -72.8205032],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_d7c2f83315c68123674533453c88349d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc90fe1f4ba3a63de7fd7510f6d0f71c.setIcon(icon_d7c2f83315c68123674533453c88349d);
+        
+    
+        var popup_0910c2e5776f80fb7c003cea7170f0bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_667cfeb8b18a68c228b2c3dc234c8d9d = $(`<div id="html_667cfeb8b18a68c228b2c3dc234c8d9d" style="width: 100.0%; height: 100.0%;">Hill-Stead Museum</div>`)[0];
+                popup_0910c2e5776f80fb7c003cea7170f0bb.setContent(html_667cfeb8b18a68c228b2c3dc234c8d9d);
+            
+        
+
+        marker_bc90fe1f4ba3a63de7fd7510f6d0f71c.bindPopup(popup_0910c2e5776f80fb7c003cea7170f0bb)
+        ;
+
+        
+    
+    
+            var marker_6b736325c660c0577dbf932a610c54b2 = L.marker(
+                [41.6408028, -72.9225314],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_2f89d35a60d43eefb25683e290f09c60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b736325c660c0577dbf932a610c54b2.setIcon(icon_2f89d35a60d43eefb25683e290f09c60);
+        
+    
+        var popup_18172c0ef2271148896183f86acf4c3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ad1c4e9900c0dd77d27979255b86781 = $(`<div id="html_2ad1c4e9900c0dd77d27979255b86781" style="width: 100.0%; height: 100.0%;">Lake Compounce</div>`)[0];
+                popup_18172c0ef2271148896183f86acf4c3f.setContent(html_2ad1c4e9900c0dd77d27979255b86781);
+            
+        
+
+        marker_6b736325c660c0577dbf932a610c54b2.bindPopup(popup_18172c0ef2271148896183f86acf4c3f)
+        ;
+
+        
+    
+    
+            var marker_8ed314aa9718a05c517c8ebe36603fe9 = L.marker(
+                [41.4209689, -72.8992361],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_6ee265321be01096b9b10b4f97fa665c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ed314aa9718a05c517c8ebe36603fe9.setIcon(icon_6ee265321be01096b9b10b4f97fa665c);
+        
+    
+        var popup_a913984df9da5536743f3ac263f6c2f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_171a567b80f08d0b70b361dec7697907 = $(`<div id="html_171a567b80f08d0b70b361dec7697907" style="width: 100.0%; height: 100.0%;">Sleeping Giant State Park</div>`)[0];
+                popup_a913984df9da5536743f3ac263f6c2f5.setContent(html_171a567b80f08d0b70b361dec7697907);
+            
+        
+
+        marker_8ed314aa9718a05c517c8ebe36603fe9.bindPopup(popup_a913984df9da5536743f3ac263f6c2f5)
+        ;
+
+        
+    
+    
+            var marker_88564a2296c4877fe2bd848abcff4da0 = L.marker(
+                [41.2352088, -73.1094592],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_3d6eaf12f3fdf69cc2e05cce2ea92cff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88564a2296c4877fe2bd848abcff4da0.setIcon(icon_3d6eaf12f3fdf69cc2e05cce2ea92cff);
+        
+    
+        var popup_962314b081ad40940f241bf2d652cdee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a99c012850870043b98a31c542b1e0dd = $(`<div id="html_a99c012850870043b98a31c542b1e0dd" style="width: 100.0%; height: 100.0%;">Boothe Memorial Park and Museum</div>`)[0];
+                popup_962314b081ad40940f241bf2d652cdee.setContent(html_a99c012850870043b98a31c542b1e0dd);
+            
+        
+
+        marker_88564a2296c4877fe2bd848abcff4da0.bindPopup(popup_962314b081ad40940f241bf2d652cdee)
+        ;
+
+        
+    
+    
+            var marker_7b6ca3d77414c16af793c6358a525a2c = L.marker(
+                [41.4272358, -73.2041851],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_7579c7b3d8aa124d07b93586d0679597 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b6ca3d77414c16af793c6358a525a2c.setIcon(icon_7579c7b3d8aa124d07b93586d0679597);
+        
+    
+        var popup_878140efde134c6349e200dbaedd9e3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a1e37ef2abced21a366bfe03c19865e = $(`<div id="html_5a1e37ef2abced21a366bfe03c19865e" style="width: 100.0%; height: 100.0%;">Kettletown State Park</div>`)[0];
+                popup_878140efde134c6349e200dbaedd9e3e.setContent(html_5a1e37ef2abced21a366bfe03c19865e);
+            
+        
+
+        marker_7b6ca3d77414c16af793c6358a525a2c.bindPopup(popup_878140efde134c6349e200dbaedd9e3e)
+        ;
+
+        
+    
+    
+            var marker_fb8128222affda95a792cac6df422143 = L.marker(
+                [41.330234, -73.2504465],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_1c5d0fddf72aa141a03637b326e88c9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb8128222affda95a792cac6df422143.setIcon(icon_1c5d0fddf72aa141a03637b326e88c9b);
+        
+    
+        var popup_df3cdfef7b4391b4d78923b928cb245d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d460afc82d7625c367ce753ffe35c35c = $(`<div id="html_d460afc82d7625c367ce753ffe35c35c" style="width: 100.0%; height: 100.0%;">Pequonnock River Trail</div>`)[0];
+                popup_df3cdfef7b4391b4d78923b928cb245d.setContent(html_d460afc82d7625c367ce753ffe35c35c);
+            
+        
+
+        marker_fb8128222affda95a792cac6df422143.bindPopup(popup_df3cdfef7b4391b4d78923b928cb245d)
+        ;
+
+        
+    
+    
+            var marker_5c4ed799040cd3eb0ed4a4b70e1031bf = L.marker(
+                [41.542979, -73.4087221],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_25403af523921c0ad8df785a8ea99e9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c4ed799040cd3eb0ed4a4b70e1031bf.setIcon(icon_25403af523921c0ad8df785a8ea99e9b);
+        
+    
+        var popup_8b05cd7abc08a517e29b9c9d5ed3a759 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de648e9f300d123c636b9303765a8cfe = $(`<div id="html_de648e9f300d123c636b9303765a8cfe" style="width: 100.0%; height: 100.0%;">Lover's Leap State Park</div>`)[0];
+                popup_8b05cd7abc08a517e29b9c9d5ed3a759.setContent(html_de648e9f300d123c636b9303765a8cfe);
+            
+        
+
+        marker_5c4ed799040cd3eb0ed4a4b70e1031bf.bindPopup(popup_8b05cd7abc08a517e29b9c9d5ed3a759)
+        ;
+
+        
+    
+    
+            var marker_f5c7d29545e1542baff3c89004915a22 = L.marker(
+                [41.379604, -73.452319],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_526e7702a5e66d9992ac53ab6ba8983e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5c7d29545e1542baff3c89004915a22.setIcon(icon_526e7702a5e66d9992ac53ab6ba8983e);
+        
+    
+        var popup_fa9bd5ee3e112f92d5dc68ad6304236b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_995966417d1a52ee36da0d657b006d5a = $(`<div id="html_995966417d1a52ee36da0d657b006d5a" style="width: 100.0%; height: 100.0%;">Tarrywile Park & Mansion</div>`)[0];
+                popup_fa9bd5ee3e112f92d5dc68ad6304236b.setContent(html_995966417d1a52ee36da0d657b006d5a);
+            
+        
+
+        marker_f5c7d29545e1542baff3c89004915a22.bindPopup(popup_fa9bd5ee3e112f92d5dc68ad6304236b)
+        ;
+
+        
+    
+    
+            var marker_cb8805e1e5206179b654e6863b95118b = L.marker(
+                [41.142, -73.354471],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_edb21fde21c575547070cbc49d3c1217 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb8805e1e5206179b654e6863b95118b.setIcon(icon_edb21fde21c575547070cbc49d3c1217);
+        
+    
+        var popup_89f83b862e15d9feaffb7a08e63b0e1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f25ba77c5002b76439c8cf1cc66a1acb = $(`<div id="html_f25ba77c5002b76439c8cf1cc66a1acb" style="width: 100.0%; height: 100.0%;">Westport Country Playhouse</div>`)[0];
+                popup_89f83b862e15d9feaffb7a08e63b0e1e.setContent(html_f25ba77c5002b76439c8cf1cc66a1acb);
+            
+        
+
+        marker_cb8805e1e5206179b654e6863b95118b.bindPopup(popup_89f83b862e15d9feaffb7a08e63b0e1e)
+        ;
+
+        
+    
+    
+            var marker_c42d0d71fde6a129e0cb0b351a49aeb1 = L.marker(
+                [41.1261182, -73.5455335],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_ecba6fb9f96979bf763e5ae93b350d2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c42d0d71fde6a129e0cb0b351a49aeb1.setIcon(icon_ecba6fb9f96979bf763e5ae93b350d2e);
+        
+    
+        var popup_7810074302d5c268260593fb7fd0c179 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56deb4cd0b4ef103a7ee80b0fc9cc1f5 = $(`<div id="html_56deb4cd0b4ef103a7ee80b0fc9cc1f5" style="width: 100.0%; height: 100.0%;">Stamford Museum & Nature Center</div>`)[0];
+                popup_7810074302d5c268260593fb7fd0c179.setContent(html_56deb4cd0b4ef103a7ee80b0fc9cc1f5);
+            
+        
+
+        marker_c42d0d71fde6a129e0cb0b351a49aeb1.bindPopup(popup_7810074302d5c268260593fb7fd0c179)
+        ;
+
+        
+    
+    
+            var marker_c830229a5710e279ca5febd07b27963a = L.marker(
+                [41.0197395, -73.6228505],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_138b2d3df266a7cdcab6b7fdaf15b60a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c830229a5710e279ca5febd07b27963a.setIcon(icon_138b2d3df266a7cdcab6b7fdaf15b60a);
+        
+    
+        var popup_24f1a2e62d5ed1bce33336a7cff0ead7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_143de3e0d95342d67683cb4c98a2afc7 = $(`<div id="html_143de3e0d95342d67683cb4c98a2afc7" style="width: 100.0%; height: 100.0%;">Bruce Museum</div>`)[0];
+                popup_24f1a2e62d5ed1bce33336a7cff0ead7.setContent(html_143de3e0d95342d67683cb4c98a2afc7);
+            
+        
+
+        marker_c830229a5710e279ca5febd07b27963a.bindPopup(popup_24f1a2e62d5ed1bce33336a7cff0ead7)
+        ;
+
+        
+    
+    
+            var marker_69521774aabbe309cdce97ed4e694b48 = L.marker(
+                [41.017757, -73.623525],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_cf3d6a45c2f648faba69e2077b05623e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69521774aabbe309cdce97ed4e694b48.setIcon(icon_cf3d6a45c2f648faba69e2077b05623e);
+        
+    
+        var popup_e066d9a291cae4fbb614cdaeca3967b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b940a80a4fa083bfeb22c1746d5fba22 = $(`<div id="html_b940a80a4fa083bfeb22c1746d5fba22" style="width: 100.0%; height: 100.0%;">Delamar Greenwich Harbor - Tesla Destination, 500 Steamboat Rd</div>`)[0];
+                popup_e066d9a291cae4fbb614cdaeca3967b9.setContent(html_b940a80a4fa083bfeb22c1746d5fba22);
+            
+        
+
+        marker_69521774aabbe309cdce97ed4e694b48.bindPopup(popup_e066d9a291cae4fbb614cdaeca3967b9)
+        ;
+
+        
+    
+    
+            var marker_7d878f33f1e40369e9132668e59aea3d = L.marker(
+                [41.1011406, -73.4165929],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_ae1b1d0483653fd0fc56a371c30a276b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d878f33f1e40369e9132668e59aea3d.setIcon(icon_ae1b1d0483653fd0fc56a371c30a276b);
+        
+    
+        var popup_61fa33b9c64dd9ce3865d732b3f09fef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54a13744c875623e4ce35363404b443c = $(`<div id="html_54a13744c875623e4ce35363404b443c" style="width: 100.0%; height: 100.0%;">The Maritime Aquarium</div>`)[0];
+                popup_61fa33b9c64dd9ce3865d732b3f09fef.setContent(html_54a13744c875623e4ce35363404b443c);
+            
+        
+
+        marker_7d878f33f1e40369e9132668e59aea3d.bindPopup(popup_61fa33b9c64dd9ce3865d732b3f09fef)
+        ;
+
+        
+    
+    
+            var marker_fc752d216319418b498f21f5418fdf6f = L.marker(
+                [41.1411404, -73.2487226],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_85f4c1d145d36f1a66dd106c34a0b39a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc752d216319418b498f21f5418fdf6f.setIcon(icon_85f4c1d145d36f1a66dd106c34a0b39a);
+        
+    
+        var popup_a769a705b43f07622bbb4147ac22ff38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fba7eeb92390389fde2426cbbccc6b4 = $(`<div id="html_3fba7eeb92390389fde2426cbbccc6b4" style="width: 100.0%; height: 100.0%;">Fairfield Museum and History Center</div>`)[0];
+                popup_a769a705b43f07622bbb4147ac22ff38.setContent(html_3fba7eeb92390389fde2426cbbccc6b4);
+            
+        
+
+        marker_fc752d216319418b498f21f5418fdf6f.bindPopup(popup_a769a705b43f07622bbb4147ac22ff38)
+        ;
+
+        
+    
+    
+            var marker_b3d9c8c979982ce4a7a7f0a14ecaeafb = L.marker(
+                [41.1615971, -73.1881069],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_57cd2b2c91f60d8abaa93d80aa264143 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3d9c8c979982ce4a7a7f0a14ecaeafb.setIcon(icon_57cd2b2c91f60d8abaa93d80aa264143);
+        
+    
+        var popup_81ad8d8195d750572673d37d162028c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86a6e21148622e0c399ba0b5193da5a1 = $(`<div id="html_86a6e21148622e0c399ba0b5193da5a1" style="width: 100.0%; height: 100.0%;">Seaside Park</div>`)[0];
+                popup_81ad8d8195d750572673d37d162028c6.setContent(html_86a6e21148622e0c399ba0b5193da5a1);
+            
+        
+
+        marker_b3d9c8c979982ce4a7a7f0a14ecaeafb.bindPopup(popup_81ad8d8195d750572673d37d162028c6)
+        ;
+
+        
+    
+    
+            var marker_0581b98f2e441d80f48676c093fdc361 = L.marker(
+                [41.2003752, -73.0676551],
+                {}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+    
+            var icon_d4d74f27d98b6fde5773b17c668c936e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0581b98f2e441d80f48676c093fdc361.setIcon(icon_d4d74f27d98b6fde5773b17c668c936e);
+        
+    
+        var popup_489458c44d6f2b05aebce9976770b4c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f927c31fffeab92d6dbbe2149bbecb7 = $(`<div id="html_8f927c31fffeab92d6dbbe2149bbecb7" style="width: 100.0%; height: 100.0%;">Silver Sands State Park</div>`)[0];
+                popup_489458c44d6f2b05aebce9976770b4c8.setContent(html_8f927c31fffeab92d6dbbe2149bbecb7);
+            
+        
+
+        marker_0581b98f2e441d80f48676c093fdc361.bindPopup(popup_489458c44d6f2b05aebce9976770b4c8)
+        ;
+
+        
+    
+    
+            var poly_line_487a04baedc3be758e10f19ca91b8916 = L.polyline(
+                [[41.3163244, -72.9223431], [41.4250948, -72.8376389], [41.5482476, -72.8361313], [41.5369083, -72.6860404], [41.759965, -72.6185678], [41.7672127, -72.3066124], [41.9169946, -71.9110492], [41.916161, -71.908102], [41.3443022, -72.0931336], [41.3612271, -71.963923], [41.5481266, -72.0676761], [41.7109653, -72.2056691], [41.8077414, -72.2539805], [41.7642631, -72.6822803], [41.8355353, -72.79086], [41.9267021, -72.5784289], [41.9616279, -72.4082497], [41.9802238, -72.6524364], [41.947718, -72.691551], [41.8705236, -73.0925345], [41.769417, -72.681825], [41.7220476, -72.8205032], [41.6408028, -72.9225314], [41.4209689, -72.8992361], [41.2352088, -73.1094592], [41.4272358, -73.2041851], [41.330234, -73.2504465], [41.542979, -73.4087221], [41.379604, -73.452319], [41.142, -73.354471], [41.1261182, -73.5455335], [41.0197395, -73.6228505], [41.017757, -73.623525], [41.1011406, -73.4165929], [41.1411404, -73.2487226], [41.1615971, -73.1881069], [41.2003752, -73.0676551], [41.3163244, -72.9223431]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_58466f1fa3b85b53e56df1d6042dfa83);
+        
+</script>
+</html>
